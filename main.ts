@@ -1,23 +1,19 @@
-// type inference
+            //string concatenation 
 
-let person = "faraz";
-let gender = "male";
-let nationality  = "pakistan";
-let birth_palce = "karachi";
-let isMarried = false;
-let contact = +921047395738;
+let  firstName   :  string  =   'Kim' ;
+let  lastName    :  string  =  'Taeyung';
  
-let a = (`${person} ${gender} ${nationality} ${birth_palce} ${isMarried} ${contact}`);
-console.log(a);
+ let  Fullname   :  string  =  firstName +  ' ' + lastName ;
+    
+        console.log (Fullname);
 
-//strongly type syntax
 
-let persSon: string = "faraz";
-let Gender : string = "male";
-let Nationality: string = "pakistan";
-let Birth_Place: string = "karachi";
-let ismarried: boolean = false;
-let Contact: number = +921047395738;
+            //template literals
 
-let b = (`${persSon} ${Gender} ${ Nationality} ${Birth_Place} ${ismarried} ${Contact}`);
-console.log(b);
+let  NameFirst    :  string  =  'Seokin';
+let  Namelast     :  string  =  'Jin';
+
+ let Namefull     :  string  = (`${ NameFirst} ${Namelast}`);
+       
+         console.log (Namefull);
+
